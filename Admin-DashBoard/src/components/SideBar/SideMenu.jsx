@@ -1,7 +1,8 @@
 import React from 'react'
 import AccountToggle from './AccountToggle'
 import Search from './Search'
-import RouteSelect from './RouteSelect'
+import {RouteSelect} from './RouteSelect'
+import { Plan } from './Plan'
 
 const SideMenu = () => {
   return (
@@ -11,9 +12,11 @@ const SideMenu = () => {
             <AccountToggle/>
             <Search/>
             <RouteSelect/>
+
         </div>
 
         {/* todo plan toggle */}
+        <Plan/>
     </div>
   )
 }

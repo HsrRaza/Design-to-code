@@ -1,0 +1,10 @@
+import React from 'react'
+
+const Grid = () => {
+  return (
+    <div
+    className='px-4 grid gap-3 grid-cols-12'>Grid</div>
+  )
+}
+
+export default Grid
