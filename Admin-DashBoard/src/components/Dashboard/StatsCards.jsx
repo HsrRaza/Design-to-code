@@ -56,6 +56,10 @@ const Card = ({
           </span>
 
         </div>
+
+        <p className='text-xs text-stone-500'>
+         {period}   
+        </p>
     </div>
     )
 }
