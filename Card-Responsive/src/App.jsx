@@ -10,13 +10,19 @@ import MultipleGradient from "./Components/Gradients/MultipleGradient"
 import GlowingGradient from "./Components/Gradients/GlowingGradient"
 import AiCard from "./Components/Practise/AiCard"
 import Diagonal from "./Components/Gradients/Diagonal"
+import GlassCone from "./Components/ConeCardDesign/GlassCone"
+import ConeClip from "./Components/ConeCardDesign/ConeClip"
 
 
 function App() {
 // min-h-screen bg-gray-100 flex items-center justify-center p-6
   return (
+    // bg-black bg-linear-to-b from-[#0a0f1f] via-black to-[#0d0b2a]
     <>
-      <div className="min-h-screen bg-black bg-linear-to-b from-[#0a0f1f] via-black to-[#0d0b2a]  flex items-center justify-center p-6 gap-6">
+      <div className="min-h-screen w-full  relative bg-black">
+        <div className="absolute bg-linear-to-t from-orange-800 via-black to-transparent inset-0 blur-2xl opacity-70  transition-all duration-300 " style={{ clipPath: "circle(52.5% at 50% 0)" }}>
+          
+        </div>
         {/* <RotateScale /> */}
         {/* <TranslateBar/> */}
         {/* <GridRes/> */}
@@ -37,7 +43,9 @@ function App() {
   {/* <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px]
       bg-blue-700/20 rounded-full blur-3xl opacity-40"></div> */}
 
-       <AiCard/>
+       {/* <AiCard/> */}
+       {/* <GlassCone/> */}
+       {/* <ConeClip/> */}
       </div>
 
 
