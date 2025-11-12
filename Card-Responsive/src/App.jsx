@@ -20,7 +20,7 @@ function App() {
     // bg-black bg-linear-to-b from-[#0a0f1f] via-black to-[#0d0b2a]
     <>
       <div className="min-h-screen w-full  relative bg-black">
-        <div className="absolute bg-linear-to-t from-orange-800 via-black to-transparent inset-0 blur-2xl opacity-70  transition-all duration-300 " style={{ clipPath: "circle(52.5% at 50% 0)" }}>
+        <div className="absolute [clip-path:ellipse(50%_57%_at_50%_1%)] top-0 bg-linear-to-t from-orange-800 via-black to-transparent inset-0 blur-2xl opacity-70  transition-all duration-300 " >
           
         </div>
         {/* <RotateScale /> */}
